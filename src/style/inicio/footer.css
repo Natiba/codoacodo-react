@@ -1,0 +1,24 @@
+footer {
+    width: 100%;
+}
+
+.footer-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    border: 1px solid green
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+}
+
+.footer-team {
+    background-color: rgb(160, 157, 155);
+    color: #fff;
+    text-align: center;
+    font-size: 0.9em;
+    padding: 5px 0
+}
