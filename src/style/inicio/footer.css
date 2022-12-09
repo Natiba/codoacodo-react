@@ -6,13 +6,35 @@ footer {
     width: 100%;
     display: flex;
     flex-flow: row nowrap;
-    border: 1px solid green
+    justify-content: space-between;
 }
 
-.footer-info {
+.us {
     display: flex;
     flex-direction: column;
-    width: 22%;
+    align-items: center;
+    justify-content: space-between;
+    border-left: 2px solid grey;
+    margin-top: 20px
+}
+
+.us-title {
+    height: 50px;
+}
+
+.us {
+    width: 23%;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.us-bottom {
+    height: 210px;
+    padding: 0 2% 3%;
+    text-align: justify
 }
 
 .footer-team {
@@ -20,5 +42,5 @@ footer {
     color: #fff;
     text-align: center;
     font-size: 0.9em;
-    padding: 5px 0
+    padding: 15px 0
 }

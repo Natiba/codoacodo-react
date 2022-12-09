@@ -1,8 +1,10 @@
 //import '../../style/inicio.css'
 
+
 const Nav = () => {
     return (
         <nav>
+          <img src="" alt="Banner" />;
         <ul>
           <li>
             <a class="actual" href="index.html">
